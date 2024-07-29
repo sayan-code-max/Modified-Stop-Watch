@@ -1,0 +1,76 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('stopWatch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    height: 270px;
+    width: 620px;
+    background-color: rgb(46, 24, 24);
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px #000000, -1px -1px 10px #92927f;
+
+
+}
+
+.heading
+{
+    color:rgb(27, 185, 185);
+    text-align: center;
+}
+
+h1
+{
+    color: white;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.buttons-group
+{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    box-shadow: 5px 5px 10px #000000, -1px -1px 10px #92927f;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(46, 24, 24);
+    cursor: pointer;
+}
+button:active
+{
+    box-shadow:inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+    
+}
+
+button:hover
+{
+    background-color: rgb(34, 14, 14);
+    color:white;
+    cursor: pointer;
+}
